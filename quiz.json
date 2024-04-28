@@ -1,0 +1,17 @@
+[
+    {
+        "question": "What is the capital of Japan?",
+        "options": ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+        "answer": "Tokyo"
+    },
+    {
+        "question": "Who is the author of 'Pride and Prejudice'?",
+        "options": ["William Shakespeare", "Leo Tolstoy", "Jane Austen", "Mark Twain"],
+        "answer": "Jane Austen"
+    },
+    {
+        "question": "Which planet is closest to the sun?",
+        "options": ["Venus", "Earth", "Mercury", "Mars"],
+        "answer": "Mercury"
+    }
+]

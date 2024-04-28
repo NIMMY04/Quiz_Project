@@ -1,0 +1,58 @@
+@import url('<https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap>');
+body {
+    background: #2c2f33;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+ height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    position: fixed;
+    top: 0;
+    background: #23272a;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#quiz-container, #start-page, #score-container, #highscore-page {
+    width: 80vw;
+    max-width: 600px;
+    background: #23272a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+}
+#header h2 {
+    margin-left:1rem;
+}
+.option-btn,
+#start-btn,
+#highscore-btn,
+#next-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #99aab5;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.option-btn:hover,
+#start-btn:hover,
+#highscore-btn:hover,
+#next-btn:hover {
+  background: #7289da;
+}
